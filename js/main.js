@@ -35,3 +35,6 @@ toTopEl.addEventListener("click", function () {
     scrollTo: 0,
   });
 });
+
+const thisYearEl = document.querySelector('span.this-year')
+thisYearEl.textContent = new Date().getFullYear();
