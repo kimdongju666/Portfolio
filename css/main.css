@@ -1,0 +1,204 @@
+body {
+  font-size: 16px;
+  word-break: keep-all;
+  font-family: 'Montserrat','Noto Sans KR', sans-serif;
+  background-color: white;
+}
+/* Header */
+header {
+  background-color: rgba(0,0,0, .9);
+  backdrop-filter: blur(10px);
+  border-bottom: 1px solid black;
+  position: sticky;
+  top: 0;
+  z-index: 9;
+}
+header .inner {
+  max-width: 1020px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+}
+header .inner h1 {
+  flex-grow: 1;
+  font-size: 30px;
+}
+header .inner a{
+  text-decoration: none;
+  color: white;
+  
+}
+header ul.menu{
+  height: 70px;
+  gap: 12px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+header ul.menu li a{
+  padding: 0 10px;
+  font-size: 20px;
+  display: block;
+  align-items: center;
+  color: white;
+  opacity: .8;
+  text-decoration: none;
+  
+}
+header ul.menu li a:hover{
+  opacity: 1;
+}
+
+/* PROFILE */
+.profile {
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  margin: 100px auto;
+}
+.profile .inner {
+  max-width: 1020px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+}
+.profile .comment .korean-comment {
+  font-size: 45px;
+  font-weight: 500;
+  margin-bottom: 80px;
+  color: white;
+  line-height: 1.5;
+}
+.profile img.front-img {
+  width: 400px;
+  height: 500px;
+  border-radius: 20px;
+}
+.profile .comment .english-comment {
+  font-weight: 400;
+  font-size: 20px;
+  font-style: italic;
+  color: white;
+  line-height: 1.5;
+}
+
+/* INFO */
+
+.info {
+  background-color: white;
+  display: flex;
+  flex-direction: row;
+  margin: 100px auto;
+
+}
+.info .inner {
+  max-width: 1020px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.info img.me-img{
+  width: 400px;
+  height: 500px;
+  border-radius: 20px;
+  margin: 100px 0;
+}
+.info .info-comment {
+  margin-left: 100px;
+}
+.info .info-comment p {
+  line-height: 1.5;
+}
+.info .info-comment h3 {
+  font-size: 30px;
+  margin: 30px 0;
+}
+.info .info-comment ul li {
+  line-height: 1.5;
+  font-size: 16px;
+  font-weight: 100;
+}
+
+/* PROJECTS */
+.projects {
+  background-color: white;
+  display: flex;
+  flex-direction: row;
+  margin: 100px auto;
+}
+.projects .inner {
+  max-width: 1020px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.projects .article-info {
+  margin-right: 85px;
+}
+.article-name{
+  font-size: 30px;
+  margin: 20px 0px;
+}
+.article-comment{
+  font-size: 16px;
+  font-weight: 100;
+  margin: 20px 0px;
+  line-height: 1.5;
+}
+.projects .article-info2 {
+  margin-left: 85px;
+}
+
+
+.projects img.thumbnail {
+  width: 600px;
+  height: 300px;
+  border-radius: 20px;
+}
+.more {
+  background-color: transparent;
+  border-radius: 10px;
+  cursor: pointer;
+  color: black;
+  padding: 0px;
+  text-decoration: none;
+}
+.more:hover {
+  color: grey;
+  transition: .3s;
+}
+
+/* FOOTER */
+.footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 200px 0;
+}
+.footer .inner {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.number ,
+.email {
+  font-size: 15px;
+  font-weight: 400;
+  display: flex;
+  margin-top: 20px;
+}
+.contact {
+  font-weight: 700;
+  font-size: 40px;
+  border-bottom: 2px solid black;
+  margin-bottom: 20px;
+}
+.links > a {
+  font-size: 20px;
+  font-weight: 400;
+  text-decoration: none;
+  color:black;
+}
