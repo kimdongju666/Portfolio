@@ -44,6 +44,7 @@
       href="https://cdn.jsdelivr.net/npm/reset-css@5.0.1/reset.min.css"
     />
     <link rel="stylesheet" href="./css/main.css" />
+    <script defer src="./js/main.js"></script>
   </head>
   <body>
     <header>
@@ -79,7 +80,10 @@
       </div>
     </section>
 
-    <section class="info" id="footnote1">
+    <div class="info-inner">
+      <h5 class="info-menu" id="footnote1">Info</h5>
+    </div>
+    <section class="info">
       <div class="inner">
         <img class="me-img" src="./images/F67A0375.jpg" alt="" />
         <div class="info-comment">
@@ -108,13 +112,19 @@
       </div>
     </section>
 
+    <div class="projects-inner">
+      <h5 class="project-menu" id="footnote2">Projects</h5>
+    </div>
     <section class="projects" id="footnote2">
       <div class="inner">
         <div class="article-info">
           <h3 class="article-name">Apple iPad Website</h3>
-          <p class="article-comment">
-            Apple 아이패드 제품 페이지를 만들어 Vercel을 통해 배포
-          </p>
+          <ul class="article-comment">
+            <li>제작기간 : 2022.11 ~ 2022.12</li>
+            <li>사용 기술 : HTML, CSS, JavaScript</li>
+            <li>기능 : </li>
+            <li>제작기간 : 2022.11 ~ 2022.12</li>
+          </ul>
           <a class="more" href="https://apple-ipad.vercel.app/">MORE ></a>
         </div>
         <img class="thumbnail" src="./images/screenshot1.jpg" alt="" />
@@ -177,5 +187,9 @@
         <span class="email">Email : kimdongju666@naver.com</span>
       </div>
     </footer>
+
+    <div id="to-top">
+      <div class="material-icons">arrow_upward</div>
+    </div>
   </body>
 </html>
