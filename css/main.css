@@ -26,6 +26,10 @@ header .inner h1 {
   font-size: 30px;
   opacity: 0.8;
 }
+header .inner h1:hover {
+  opacity: 1;
+  transition: 0.5s;
+}
 header .inner a {
   text-decoration: none;
   color: white;
@@ -57,17 +61,22 @@ header ul.menu li a:hover {
   display: flex;
   flex-direction: column;
 }
+
 .profile .inner {
   max-width: 1020px;
   margin: 100px auto;
   display: flex;
   align-items: center;
 }
+.profile .sample {
+  color: white;
+  font-weight: 700;
+}
 .profile .comment .korean-comment {
   font-size: 45px;
   font-weight: 500;
   margin-bottom: 80px;
-  color: white;
+  color: #ababab;
   line-height: 1.5;
 }
 .profile img.front-img {
@@ -212,8 +221,7 @@ header ul.menu li a:hover {
   display: flex;
   flex-direction: column;
   max-width: 1020px;
-  margin: 0 auto;
-  margin-top: 100px;
+  margin: 100px auto;
   align-items: center;
 }
 .number,
